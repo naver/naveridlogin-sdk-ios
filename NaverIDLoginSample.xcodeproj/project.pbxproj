@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AD673E91FA1C9F0005E691D /* NaverOAuthSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD673E41FA1C9F0005E691D /* NaverOAuthSampleAppDelegate.m */; };
+		4AD673EA1FA1C9F0005E691D /* SampleOAuthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD673E71FA1C9F0005E691D /* SampleOAuthView.m */; };
+		4AD673EB1FA1C9F0005E691D /* SampleOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD673E81FA1C9F0005E691D /* SampleOAuthViewController.m */; };
+		4AD673ED1FA1CA3C005E691D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AD673EC1FA1CA3C005E691D /* Info.plist */; };
+		4AFA68381FA08075009A2D3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFA68351FA08075009A2D3D /* main.m */; };
+		4AFA683A1FA0807C009A2D3D /* Resource in Resources */ = {isa = PBXBuildFile; fileRef = 4AFA68391FA0807C009A2D3D /* Resource */; };
+		4AFA683F1FA080D7009A2D3D /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFA683E1FA080CD009A2D3D /* SafariServices.framework */; };
+		4AFA68411FA080E5009A2D3D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFA68401FA080DE009A2D3D /* QuartzCore.framework */; };
+		4AFA68431FA080EE009A2D3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFA68421FA080EB009A2D3D /* UIKit.framework */; };
+		4AFA68451FA08100009A2D3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFA68441FA080F9009A2D3D /* Foundation.framework */; };
+		4AFA68471FA08113009A2D3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFA68461FA0810E009A2D3D /* CoreGraphics.framework */; };
+		4AFA68481FA081A5009A2D3D /* NaverThirdPartyLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFA683C1FA080A4009A2D3D /* NaverThirdPartyLogin.framework */; };
+		4AFA68491FA081A5009A2D3D /* NaverThirdPartyLogin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFA683C1FA080A4009A2D3D /* NaverThirdPartyLogin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4AFA684A1FA081A5009A2D3D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4AFA68491FA081A5009A2D3D /* NaverThirdPartyLogin.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4AD673E31FA1C9F0005E691D /* NaverOAuthSampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaverOAuthSampleAppDelegate.h; sourceTree = "<group>"; };
+		4AD673E41FA1C9F0005E691D /* NaverOAuthSampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaverOAuthSampleAppDelegate.m; sourceTree = "<group>"; };
+		4AD673E51FA1C9F0005E691D /* SampleOAuthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleOAuthView.h; sourceTree = "<group>"; };
+		4AD673E61FA1C9F0005E691D /* SampleOAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleOAuthViewController.h; sourceTree = "<group>"; };
+		4AD673E71FA1C9F0005E691D /* SampleOAuthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleOAuthView.m; sourceTree = "<group>"; };
+		4AD673E81FA1C9F0005E691D /* SampleOAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleOAuthViewController.m; sourceTree = "<group>"; };
+		4AD673EC1FA1CA3C005E691D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AFA68151FA07F59009A2D3D /* NaverIDLoginSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaverIDLoginSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AFA68351FA08075009A2D3D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AFA68391FA0807C009A2D3D /* Resource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resource; sourceTree = "<group>"; };
+		4AFA683C1FA080A4009A2D3D /* NaverThirdPartyLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NaverThirdPartyLogin.framework; sourceTree = "<group>"; };
+		4AFA683E1FA080CD009A2D3D /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		4AFA68401FA080DE009A2D3D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4AFA68421FA080EB009A2D3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4AFA68441FA080F9009A2D3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4AFA68461FA0810E009A2D3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AFA68121FA07F59009A2D3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AFA68451FA08100009A2D3D /* Foundation.framework in Frameworks */,
+				4AFA68431FA080EE009A2D3D /* UIKit.framework in Frameworks */,
+				4AFA68471FA08113009A2D3D /* CoreGraphics.framework in Frameworks */,
+				4AFA68411FA080E5009A2D3D /* QuartzCore.framework in Frameworks */,
+				4AFA683F1FA080D7009A2D3D /* SafariServices.framework in Frameworks */,
+				4AFA68481FA081A5009A2D3D /* NaverThirdPartyLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AFA680C1FA07F59009A2D3D = {
+			isa = PBXGroup;
+			children = (
+				4AFA68171FA07F59009A2D3D /* NaverIDLoginSample */,
+				4AFA68161FA07F59009A2D3D /* Products */,
+				4AFA683B1FA080A4009A2D3D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4AFA68161FA07F59009A2D3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AFA68151FA07F59009A2D3D /* NaverIDLoginSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AFA68171FA07F59009A2D3D /* NaverIDLoginSample */ = {
+			isa = PBXGroup;
+			children = (
+				4AD673EC1FA1CA3C005E691D /* Info.plist */,
+				4AD673E31FA1C9F0005E691D /* NaverOAuthSampleAppDelegate.h */,
+				4AD673E41FA1C9F0005E691D /* NaverOAuthSampleAppDelegate.m */,
+				4AD673E51FA1C9F0005E691D /* SampleOAuthView.h */,
+				4AD673E71FA1C9F0005E691D /* SampleOAuthView.m */,
+				4AD673E61FA1C9F0005E691D /* SampleOAuthViewController.h */,
+				4AD673E81FA1C9F0005E691D /* SampleOAuthViewController.m */,
+				4AFA68351FA08075009A2D3D /* main.m */,
+				4AFA68391FA0807C009A2D3D /* Resource */,
+			);
+			path = NaverIDLoginSample;
+			sourceTree = "<group>";
+		};
+		4AFA683B1FA080A4009A2D3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AFA68461FA0810E009A2D3D /* CoreGraphics.framework */,
+				4AFA68441FA080F9009A2D3D /* Foundation.framework */,
+				4AFA68421FA080EB009A2D3D /* UIKit.framework */,
+				4AFA68401FA080DE009A2D3D /* QuartzCore.framework */,
+				4AFA683E1FA080CD009A2D3D /* SafariServices.framework */,
+				4AFA683C1FA080A4009A2D3D /* NaverThirdPartyLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AFA68141FA07F59009A2D3D /* NaverIDLoginSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AFA682B1FA07F5A009A2D3D /* Build configuration list for PBXNativeTarget "NaverIDLoginSample" */;
+			buildPhases = (
+				4AFA68111FA07F59009A2D3D /* Sources */,
+				4AFA68121FA07F59009A2D3D /* Frameworks */,
+				4AFA68131FA07F59009A2D3D /* Resources */,
+				4AFA684A1FA081A5009A2D3D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaverIDLoginSample;
+			productName = NaverIDLoginSample;
+			productReference = 4AFA68151FA07F59009A2D3D /* NaverIDLoginSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AFA680D1FA07F59009A2D3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Naver;
+				TargetAttributes = {
+					4AFA68141FA07F59009A2D3D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4AFA68101FA07F59009A2D3D /* Build configuration list for PBXProject "NaverIDLoginSample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AFA680C1FA07F59009A2D3D;
+			productRefGroup = 4AFA68161FA07F59009A2D3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AFA68141FA07F59009A2D3D /* NaverIDLoginSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AFA68131FA07F59009A2D3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD673ED1FA1CA3C005E691D /* Info.plist in Resources */,
+				4AFA683A1FA0807C009A2D3D /* Resource in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AFA68111FA07F59009A2D3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD673EB1FA1C9F0005E691D /* SampleOAuthViewController.m in Sources */,
+				4AFA68381FA08075009A2D3D /* main.m in Sources */,
+				4AD673E91FA1C9F0005E691D /* NaverOAuthSampleAppDelegate.m in Sources */,
+				4AD673EA1FA1C9F0005E691D /* SampleOAuthView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4AFA68291FA07F5A009A2D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4AFA682A1FA07F5A009A2D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AFA682C1FA07F5A009A2D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = NaverIDLoginSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.NaverIDLoginSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AFA682D1FA07F5A009A2D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = NaverIDLoginSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.NaverIDLoginSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AFA68101FA07F59009A2D3D /* Build configuration list for PBXProject "NaverIDLoginSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AFA68291FA07F5A009A2D3D /* Debug */,
+				4AFA682A1FA07F5A009A2D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AFA682B1FA07F5A009A2D3D /* Build configuration list for PBXNativeTarget "NaverIDLoginSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AFA682C1FA07F5A009A2D3D /* Debug */,
+				4AFA682D1FA07F5A009A2D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AFA680D1FA07F59009A2D3D /* Project object */;
+}
