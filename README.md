@@ -2,6 +2,17 @@
 iOS용 네이버 ID 로그인 라이브러리 및 예제 프로젝트를 포함하고있습니다.<br>
 자세한 내용은 [개발자 센터 튜토리얼](https://developers.naver.com/docs/login/ios/)에서 확인하실 수 있습니다.
 
+
+샘플앱 실행 방법
+```
+pod try naveridlogin-sdk-ios
+```
+
+Podfile 적용
+```
+pod 'naveridlogin-sdk-ios'
+```
+
 # License
 See [LICENSE](LICENSE) for full license text.
 
