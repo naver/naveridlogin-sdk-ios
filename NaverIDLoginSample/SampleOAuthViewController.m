@@ -126,7 +126,10 @@
         [_mainView setResultLabelText:@"로그인 하세요."];
         return;
     }
-    NSString *urlString = @"https://apis.naver.com/nidlogin/nid/getUserProfile.xml";  // 아이디 호출
+    //xml 
+    //NSString *urlString = @"https://openapi.naver.com/v1/nid/getUserProfile.xml";  // 아이디 호출
+    //json 
+    NSString *urlString = @"https://openapi.naver.com/v1/nid/me";
     
     NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:urlString]];
     
@@ -154,8 +157,11 @@
         [_mainView setResultLabelText:@"로그인 하세요."];
         return;
     }
-    
-    NSString *urlString = @"https://apis.naver.com/nidlogin/nid/getUserProfile.xml";  // 사용자 프로필 호출
+
+    //xml 
+    //NSString *urlString = @"https://openapi.naver.com/v1/nid/getUserProfile.xml";  //  사용자 프로필 호출
+    //json 
+    NSString *urlString = @"https://openapi.naver.com/v1/nid/me";
     
     NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:urlString]];
     
