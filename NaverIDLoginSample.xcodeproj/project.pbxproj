@@ -10,6 +10,7 @@
 		4AD673E91FA1C9F0005E691D /* NaverOAuthSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD673E41FA1C9F0005E691D /* NaverOAuthSampleAppDelegate.m */; };
 		4AD673EA1FA1C9F0005E691D /* SampleOAuthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD673E71FA1C9F0005E691D /* SampleOAuthView.m */; };
 		4AD673EB1FA1C9F0005E691D /* SampleOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD673E81FA1C9F0005E691D /* SampleOAuthViewController.m */; };
+		4AD673ED1FA1CA3C005E691D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AD673EC1FA1CA3C005E691D /* Info.plist */; };
 		4AFA68381FA08075009A2D3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFA68351FA08075009A2D3D /* main.m */; };
 		4AFA683A1FA0807C009A2D3D /* Resource in Resources */ = {isa = PBXBuildFile; fileRef = 4AFA68391FA0807C009A2D3D /* Resource */; };
 		4AFA683F1FA080D7009A2D3D /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFA683E1FA080CD009A2D3D /* SafariServices.framework */; };
@@ -176,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AD673ED1FA1CA3C005E691D /* Info.plist in Resources */,
 				4AFA683A1FA0807C009A2D3D /* Resource in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

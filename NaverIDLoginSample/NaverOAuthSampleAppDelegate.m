@@ -33,11 +33,6 @@
     return YES;
 }
 
-//iOS 9.0 미만일때 구현
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
-    return [[NaverThirdPartyLoginConnection getSharedInstance] application:application openURL:url sourceApplication:sourceApplication annotation:annotation];
-}
-
 //iOS 9.0 이상일 때 구현
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options {
     return [[NaverThirdPartyLoginConnection getSharedInstance] application:app openURL:url options:options];

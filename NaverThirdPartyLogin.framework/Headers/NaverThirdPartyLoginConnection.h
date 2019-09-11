@@ -58,7 +58,6 @@
 @end
 
 @protocol NaverThirdPartyLoginConnectionDelegate <NSObject>
-- (void)oauth20ConnectionDidOpenInAppBrowserForOAuth:(NSURLRequest *)request;
 - (void)oauth20ConnectionDidFinishRequestACTokenWithAuthCode;
 - (void)oauth20ConnectionDidFinishRequestACTokenWithRefreshToken;
 - (void)oauth20ConnectionDidFinishDeleteToken;

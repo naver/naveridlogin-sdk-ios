@@ -17,6 +17,7 @@
 - (NSDictionary *)makeHeaderDictionary:(NSString *)headerString;
 @end
 
+API_AVAILABLE(ios(11.0))
 @interface SampleOAuthViewController ()
 @property(nonatomic,strong) SFAuthenticationSession *authSession;
 @end
@@ -131,25 +132,7 @@
     //json
     NSString *urlString = @"https://openapi.naver.com/v1/nid/me";
     
-    NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:urlString]];
-    
-    NSString *authValue = [NSString stringWithFormat:@"Bearer %@", _thirdPartyLoginConn.accessToken];
-    
-    [urlRequest setValue:authValue forHTTPHeaderField:@"Authorization"];
-    
-    NSHTTPURLResponse *response = nil;
-    NSError *error = nil;
-    NSData *receivedData = [NSURLConnection sendSynchronousRequest:urlRequest returningResponse:&response error:&error];
-    NSString *decodingString = [[NSString alloc] initWithData:receivedData encoding:NSUTF8StringEncoding];
-    
-    if (error) {
-        NSLog(@"Error happened - %@", [error description]);
-        [_mainView setResultLabelText:[error description]];
-    } else {
-        NSLog(@"recevied data - %@", decodingString);
-        [_mainView setResultLabelText:decodingString];
-    }
-
+    [self sendRequestWithUrlString:urlString];
 }
 
 - (void)didClickGetUserProfileBtn:(SampleOAuthView *)view {
@@ -162,25 +145,29 @@
     //NSString *urlString = @"https://openapi.naver.com/v1/nid/getUserProfile.xml";  //  사용자 프로필 호출
     //json
     NSString *urlString = @"https://openapi.naver.com/v1/nid/me";
-    
+
+    [self sendRequestWithUrlString:urlString];
+}
+
+- (void)sendRequestWithUrlString:(NSString *)urlString {
     NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:urlString]];
-    
+
     NSString *authValue = [NSString stringWithFormat:@"Bearer %@", _thirdPartyLoginConn.accessToken];
-    
+
     [urlRequest setValue:authValue forHTTPHeaderField:@"Authorization"];
-    
-    NSHTTPURLResponse *response = nil;
-    NSError *error = nil;
-    NSData *receivedData = [NSURLConnection sendSynchronousRequest:urlRequest returningResponse:&response error:&error];
-    NSString *decodingString = [[NSString alloc] initWithData:receivedData encoding:NSUTF8StringEncoding];
-    
-    if (error) {
-        NSLog(@"Error happened - %@", [error description]);
-        [_mainView setResultLabelText:[error description]];
-    } else {
-        NSLog(@"recevied data - %@", decodingString);
-        [_mainView setResultLabelText:decodingString];
-    }
+
+    [[[NSURLSession sharedSession] dataTaskWithRequest:urlRequest completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        NSString *decodingString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            if (error) {
+                NSLog(@"Error happened - %@", [error description]);
+                [_mainView setResultLabelText:[error description]];
+            } else {
+                NSLog(@"recevied data - %@", decodingString);
+                [_mainView setResultLabelText:decodingString];
+            }
+        });
+    }] resume];
 }
 
 - (void)didClickGetACTokenWithRefreshTokenBtn:(SampleOAuthView *)view {
@@ -210,20 +197,8 @@
     }
 }
 
-#pragma mark - SampleOAuthConnectionDelegate
-- (void) presentWebviewControllerWithRequest:(NSURLRequest *)urlRequest   {
-    // FormSheet모달위에 FullScreen모달이 뜰 떄 애니메이션이 이상하게 동작하여 애니메이션이 없도록 함
-
-    NLoginThirdPartyOAuth20InAppBrowserViewController *inAppBrowserViewController = [[NLoginThirdPartyOAuth20InAppBrowserViewController alloc] initWithRequest:urlRequest];
-    inAppBrowserViewController.parentOrientation = (UIInterfaceOrientation)[[UIDevice currentDevice] orientation];
-    [self presentViewController:inAppBrowserViewController animated:NO completion:nil];
-}
 
 #pragma mark - OAuth20 deleagate
-
-- (void)oauth20ConnectionDidOpenInAppBrowserForOAuth:(NSURLRequest *)request {
-    [self presentWebviewControllerWithRequest:request];
-}
 
 - (void)oauth20Connection:(NaverThirdPartyLoginConnection *)oauthConnection didFailWithError:(NSError *)error {
     //    NSLog(@"%s=[%@]", __FUNCTION__, error);
