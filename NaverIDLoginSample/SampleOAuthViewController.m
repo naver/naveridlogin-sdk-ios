@@ -217,12 +217,12 @@ API_AVAILABLE(ios(11.0))
     [_mainView setResultLabelText:[NSString stringWithFormat:@"인증해제 완료"]];
 }
 
-- (void)oauth20Connection:(NaverThirdPartyLoginConnection *)oauthConnection didFinishAuthorizationWithResult:(THIRDPARTYLOGIN_RECEIVE_TYPE)recieveType
+- (void)oauth20Connection:(NaverThirdPartyLoginConnection *)oauthConnection didFinishAuthorizationWithResult:(THIRDPARTYLOGIN_RECEIVE_TYPE)receiveType
 {
     NSLog(@"Getting auth code from NaverApp success!");
 }
 
-- (void)oauth20Connection:(NaverThirdPartyLoginConnection *)oauthConnection didFailAuthorizationWithRecieveType:(THIRDPARTYLOGIN_RECEIVE_TYPE)recieveType
+- (void)oauth20Connection:(NaverThirdPartyLoginConnection *)oauthConnection didFailAuthorizationWithReceiveType:(THIRDPARTYLOGIN_RECEIVE_TYPE)recieveType
 {
     NSLog(@"NaverApp login fail handler");
 }
