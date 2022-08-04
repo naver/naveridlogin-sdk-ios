@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,18 +17,18 @@
 		4AFA68431FA080EE009A2D3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFA68421FA080EB009A2D3D /* UIKit.framework */; };
 		4AFA68451FA08100009A2D3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFA68441FA080F9009A2D3D /* Foundation.framework */; };
 		4AFA68471FA08113009A2D3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFA68461FA0810E009A2D3D /* CoreGraphics.framework */; };
-		4AFA68481FA081A5009A2D3D /* NaverThirdPartyLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFA683C1FA080A4009A2D3D /* NaverThirdPartyLogin.framework */; };
-		4AFA68491FA081A5009A2D3D /* NaverThirdPartyLogin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFA683C1FA080A4009A2D3D /* NaverThirdPartyLogin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE3EBEA7289B9F78005D49F3 /* NaverThirdPartyLogin.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3EBEA6289B9F78005D49F3 /* NaverThirdPartyLogin.xcframework */; };
+		CE3EBEA8289B9F78005D49F3 /* NaverThirdPartyLogin.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE3EBEA6289B9F78005D49F3 /* NaverThirdPartyLogin.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4AFA684A1FA081A5009A2D3D /* Embed Frameworks */ = {
+		CE3EBEA9289B9F78005D49F3 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4AFA68491FA081A5009A2D3D /* NaverThirdPartyLogin.framework in Embed Frameworks */,
+				CE3EBEA8289B9F78005D49F3 /* NaverThirdPartyLogin.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +52,7 @@
 		4AFA68421FA080EB009A2D3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4AFA68441FA080F9009A2D3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4AFA68461FA0810E009A2D3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE3EBEA6289B9F78005D49F3 /* NaverThirdPartyLogin.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = NaverThirdPartyLogin.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +62,10 @@
 			files = (
 				4AFA68451FA08100009A2D3D /* Foundation.framework in Frameworks */,
 				4AFA68431FA080EE009A2D3D /* UIKit.framework in Frameworks */,
+				CE3EBEA7289B9F78005D49F3 /* NaverThirdPartyLogin.xcframework in Frameworks */,
 				4AFA68471FA08113009A2D3D /* CoreGraphics.framework in Frameworks */,
 				4AFA68411FA080E5009A2D3D /* QuartzCore.framework in Frameworks */,
 				4AFA683F1FA080D7009A2D3D /* SafariServices.framework in Frameworks */,
-				4AFA68481FA081A5009A2D3D /* NaverThirdPartyLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +108,7 @@
 		4AFA683B1FA080A4009A2D3D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE3EBEA6289B9F78005D49F3 /* NaverThirdPartyLogin.xcframework */,
 				4AFA68461FA0810E009A2D3D /* CoreGraphics.framework */,
 				4AFA68441FA080F9009A2D3D /* Foundation.framework */,
 				4AFA68421FA080EB009A2D3D /* UIKit.framework */,
@@ -127,7 +129,7 @@
 				4AFA68111FA07F59009A2D3D /* Sources */,
 				4AFA68121FA07F59009A2D3D /* Frameworks */,
 				4AFA68131FA07F59009A2D3D /* Resources */,
-				4AFA684A1FA081A5009A2D3D /* Embed Frameworks */,
+				CE3EBEA9289B9F78005D49F3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -312,7 +314,10 @@
 				);
 				INFOPLIST_FILE = NaverIDLoginSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.NaverIDLoginSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,7 +335,10 @@
 				);
 				INFOPLIST_FILE = NaverIDLoginSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.NaverIDLoginSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

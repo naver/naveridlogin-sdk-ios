@@ -222,7 +222,7 @@ API_AVAILABLE(ios(11.0))
     NSLog(@"Getting auth code from NaverApp success!");
 }
 
-- (void)oauth20Connection:(NaverThirdPartyLoginConnection *)oauthConnection didFailAuthorizationWithReceiveType:(THIRDPARTYLOGIN_RECEIVE_TYPE)recieveType
+- (void)oauth20Connection:(NaverThirdPartyLoginConnection *)oauthConnection didFailAuthorizationWithReceiveType:(THIRDPARTYLOGIN_RECEIVE_TYPE)receiveType
 {
     NSLog(@"NaverApp login fail handler");
 }

@@ -1,0 +1,455 @@
+BCSymbolMap Version: 2.0
+Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk
+iPhoneOS15.5.sdk
+/var/root/Library/Developer/Xcode/DerivedData/NaverThirdPartyLogin-cyfpwhvbugqhcsbcbedodawthzci/Build/Intermediates.noindex/ArchiveIntermediates/NaverThirdPartyLogin/IntermediateBuildFilesPath/NaverThirdPartyLogin.build/Release-iphoneos/NaverThirdPartyLogin.build/DerivedSources/NaverThirdPartyLogin_vers.c
+/Users/user/Documents/dev/naverid-3rdparty-sdk-ios
++[NaverThirdPartyLoginURLSession sendRequestWith:requestKey:completion:]
+___72+[NaverThirdPartyLoginURLSession sendRequestWith:requestKey:completion:]_block_invoke
+___72+[NaverThirdPartyLoginURLSession sendRequestWith:requestKey:completion:]_block_invoke_2
+___copy_helper_block_e8_32b40s48s56s
+___destroy_helper_block_e8_32s40s48s56s
+___copy_helper_block_e8_32b
+___destroy_helper_block_e8_32s
++[NaverThirdPartyLoginURLSession session]
+-[NaverThirdPartyLoginURLSession requestKey]
+-[NaverThirdPartyLoginURLSession setRequestKey:]
++[NSError(NaverThirdPartyLoginURLSession) errorWithErrorInfo:]
+___clang_at_available_requires_core_foundation_framework
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_CLASSLIST_REFERENCES_$_.1
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.3
+_OBJC_SELECTOR_REFERENCES_.5
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_CLASSLIST_REFERENCES_$_.8
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_SELECTOR_REFERENCES_.16
+___block_descriptor_64_e8_32bs40s48s56s_e5_v8?0l
+___block_descriptor_40_e8_32bs_e46_v32?0"NSData"8"NSURLResponse"16"NSError"24l
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_CLASSLIST_REFERENCES_$_.23
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_SELECTOR_REFERENCES_.27
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_CLASSLIST_REFERENCES_$_.30
+_OBJC_SELECTOR_REFERENCES_.32
+_OBJC_IVAR_$_NaverThirdPartyLoginURLSession._requestKey
+__OBJC_$_CLASS_METHODS_NaverThirdPartyLoginURLSession
+__OBJC_METACLASS_RO_$_NaverThirdPartyLoginURLSession
+__OBJC_$_INSTANCE_METHODS_NaverThirdPartyLoginURLSession
+__OBJC_$_INSTANCE_VARIABLES_NaverThirdPartyLoginURLSession
+__OBJC_$_PROP_LIST_NaverThirdPartyLoginURLSession
+__OBJC_CLASS_RO_$_NaverThirdPartyLoginURLSession
+_OBJC_CLASSLIST_REFERENCES_$_.42
+_OBJC_SELECTOR_REFERENCES_.44
+_OBJC_CLASSLIST_REFERENCES_$_.45
+_OBJC_SELECTOR_REFERENCES_.49
+__OBJC_$_CATEGORY_CLASS_METHODS_NSError_$_NaverThirdPartyLoginURLSession
+__OBJC_$_CATEGORY_NSError_$_NaverThirdPartyLoginURLSession
+/Users/user/Documents/dev/naverid-3rdparty-sdk-ios/NaverOAuthSample/thirdPartyModule/Classes/NaverThirdPartyLoginURLSession.m
+NaverOAuthSample/thirdPartyModule/Classes/NaverThirdPartyLoginURLSession.m
+NaverOAuthSample/thirdPartyModule/Classes/NaverThirdPartyLoginURLSession.h
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32b
+__destroy_helper_block_e8_32s40s48s56s
+__copy_helper_block_e8_32b40s48s56s
+__72+[NaverThirdPartyLoginURLSession sendRequestWith:requestKey:completion:]_block_invoke_2
+__72+[NaverThirdPartyLoginURLSession sendRequestWith:requestKey:completion:]_block_invoke
+dispatch_get_main_queue
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/dispatch/queue.h
+-[NaverOAuth20Result initData:]
+-[NaverOAuth20Result setOAuthResult:]
+-[NaverOAuth20Result init]
+-[NaverOAuth20Result dealloc]
+-[NaverOAuth20Result errorCode]
+-[NaverOAuth20Result setErrorCode:]
+-[NaverOAuth20Result errorDescription]
+-[NaverOAuth20Result setErrorDescription:]
+-[NaverOAuth20Result accessToken]
+-[NaverOAuth20Result setAccessToken:]
+-[NaverOAuth20Result refreshToken]
+-[NaverOAuth20Result setRefreshToken:]
+-[NaverOAuth20Result tokenType]
+-[NaverOAuth20Result setTokenType:]
+-[NaverOAuth20Result accessTokenExpireDate]
+-[NaverOAuth20Result setAccessTokenExpireDate:]
+-[NaverOAuth20Result .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.18
+_OBJC_SELECTOR_REFERENCES_.26
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_SELECTOR_REFERENCES_.34
+__OBJC_METACLASS_RO_$_NaverOAuth20Result
+__OBJC_$_INSTANCE_METHODS_NaverOAuth20Result
+_OBJC_IVAR_$_NaverOAuth20Result._errorCode
+_OBJC_IVAR_$_NaverOAuth20Result._errorDescription
+_OBJC_IVAR_$_NaverOAuth20Result._accessToken
+_OBJC_IVAR_$_NaverOAuth20Result._accessTokenExpireDate
+_OBJC_IVAR_$_NaverOAuth20Result._refreshToken
+_OBJC_IVAR_$_NaverOAuth20Result._tokenType
+__OBJC_$_INSTANCE_VARIABLES_NaverOAuth20Result
+__OBJC_$_PROP_LIST_NaverOAuth20Result
+__OBJC_CLASS_RO_$_NaverOAuth20Result
+/Users/user/Documents/dev/naverid-3rdparty-sdk-ios/NaverOAuthSample/thirdPartyModule/Classes/NaverOAuth20Result.m
+NaverOAuthSample/thirdPartyModule/Classes/NaverOAuth20Result.m
+-[NaverLoginAlertViewController viewDidLoad]
++[NaverLoginAlertViewController cancelAlertViewWithTitle:message:cancelTitle:cancelAction:]
++[NaverLoginAlertViewController alertViewWithTilte:message:okTitle:cancelTitle:okAction:cancelAction:]
+-[NaverLoginAlertViewController okActionWithTitle:completion:]
+___62-[NaverLoginAlertViewController okActionWithTitle:completion:]_block_invoke
+-[NaverLoginAlertViewController cancelActionWithTitle:completion:]
+___66-[NaverLoginAlertViewController cancelActionWithTitle:completion:]_block_invoke
+-[NaverLoginAlertViewController cancelActionWithTitle:]
+-[NaverLoginAlertViewController show]
+-[NaverLoginAlertViewController viewWillAppear:]
+-[NaverLoginAlertViewController viewWillDisappear:]
+-[NaverLoginAlertViewController alertWindow]
+-[NaverLoginAlertViewController setAlertWindow:]
+-[NaverLoginAlertViewController .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_CLASSLIST_REFERENCES_$_.9
+___block_descriptor_40_e8_32bs_e23_v16?0"UIAlertAction"8l
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_CLASSLIST_REFERENCES_$_.12
+_OBJC_CLASSLIST_REFERENCES_$_.13
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_CLASSLIST_REFERENCES_$_.22
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_CLASSLIST_REFERENCES_$_.31
+_OBJC_SELECTOR_REFERENCES_.33
+_OBJC_SELECTOR_REFERENCES_.35
+_OBJC_SELECTOR_REFERENCES_.37
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_SELECTOR_REFERENCES_.43
+_OBJC_SELECTOR_REFERENCES_.45
+_OBJC_SELECTOR_REFERENCES_.47
+_OBJC_IVAR_$_NaverLoginAlertViewController._alertWindow
+__OBJC_$_CLASS_METHODS_NaverLoginAlertViewController
+__OBJC_METACLASS_RO_$_NaverLoginAlertViewController
+__OBJC_$_INSTANCE_METHODS_NaverLoginAlertViewController
+__OBJC_$_INSTANCE_VARIABLES_NaverLoginAlertViewController
+__OBJC_$_PROP_LIST_NaverLoginAlertViewController
+__OBJC_CLASS_RO_$_NaverLoginAlertViewController
+/Users/user/Documents/dev/naverid-3rdparty-sdk-ios/NaverOAuthSample/thirdPartyModule/Classes/NaverLoginAlertViewController.m
+NaverOAuthSample/thirdPartyModule/Classes/NaverLoginAlertViewController.m
+__66-[NaverLoginAlertViewController cancelActionWithTitle:completion:]_block_invoke
+__62-[NaverLoginAlertViewController okActionWithTitle:completion:]_block_invoke
++[NaverThirdPartyLoginUserAgent modelName]
++[NaverThirdPartyLoginUserAgent userAgentForThirdPartyLogin]
+_OBJC_CLASSLIST_REFERENCES_$_.7
+_OBJC_SELECTOR_REFERENCES_.9
+__OBJC_$_CLASS_METHODS_NaverThirdPartyLoginUserAgent
+__OBJC_METACLASS_RO_$_NaverThirdPartyLoginUserAgent
+__OBJC_CLASS_RO_$_NaverThirdPartyLoginUserAgent
+/Users/user/Documents/dev/naverid-3rdparty-sdk-ios/NaverOAuthSample/thirdPartyModule/Classes/NaverThirdPartyLoginUserAgent.m
+NaverOAuthSample/thirdPartyModule/Classes/NaverThirdPartyLoginUserAgent.m
++[NaverThirdPartyLoginConnection getSharedInstance]
+-[NaverThirdPartyLoginConnection init]
+-[NaverThirdPartyLoginConnection setAccessToken:]
+-[NaverThirdPartyLoginConnection setAccessTokenExpireDate:]
+-[NaverThirdPartyLoginConnection setRefreshToken:]
+-[NaverThirdPartyLoginConnection setTokenType:]
+-[NaverThirdPartyLoginConnection application:openURL:sourceApplication:annotation:]
+-[NaverThirdPartyLoginConnection application:openURL:options:]
+-[NaverThirdPartyLoginConnection scene:openURLContexts:]
+-[NaverThirdPartyLoginConnection parameterValueWithUrl:paramName:]
+-[NaverThirdPartyLoginConnection checkScheme:]
+-[NaverThirdPartyLoginConnection handleurl:]
+-[NaverThirdPartyLoginConnection requestThirdPartyLogin]
+-[NaverThirdPartyLoginConnection requestRequestCodeByInApp]
+___59-[NaverThirdPartyLoginConnection requestRequestCodeByInApp]_block_invoke
+___copy_helper_block_e8_32s
+-[NaverThirdPartyLoginConnection safariViewControllerDidFinish:]
+-[NaverThirdPartyLoginConnection requestAccessTokenWithRefreshToken]
+-[NaverThirdPartyLoginConnection requestDeleteToken]
+-[NaverThirdPartyLoginConnection state]
+-[NaverThirdPartyLoginConnection osVersion]
+-[NaverThirdPartyLoginConnection isValidAccessTokenExpireTimeNow]
+-[NaverThirdPartyLoginConnection receiveAccessToken:]
+___53-[NaverThirdPartyLoginConnection receiveAccessToken:]_block_invoke
+___53-[NaverThirdPartyLoginConnection receiveAccessToken:]_block_invoke_2
+___53-[NaverThirdPartyLoginConnection receiveAccessToken:]_block_invoke_3
+___53-[NaverThirdPartyLoginConnection receiveAccessToken:]_block_invoke_4
+___53-[NaverThirdPartyLoginConnection receiveAccessToken:]_block_invoke_5
+-[NaverThirdPartyLoginConnection resetToken]
+-[NaverThirdPartyLoginConnection userAgentForThirdPartyLogin]
+-[NaverThirdPartyLoginConnection removeNaverLoginCookie]
+-[NaverThirdPartyLoginConnection urlRequestForAuthorizeCode]
+-[NaverThirdPartyLoginConnection urlForAuthorizeCode]
+-[NaverThirdPartyLoginConnection makeNewOneTimeStateCode]
+-[NaverThirdPartyLoginConnection setOneTimeStateCode:]
+-[NaverThirdPartyLoginConnection failWithGetAuthCode:withDescription:]
+-[NaverThirdPartyLoginConnection didFinishWithDataForJSSONParser:withRequestKey:]
+-[NaverThirdPartyLoginConnection requestAccessTokenWithAuthCode]
+-[NaverThirdPartyLoginConnection urlConnectionWithType:]
+-[NaverThirdPartyLoginConnection validOneTimeStateCode:]
+-[NaverThirdPartyLoginConnection requestUrlConnectionWithUrl:requestKey:]
+___73-[NaverThirdPartyLoginConnection requestUrlConnectionWithUrl:requestKey:]_block_invoke
+___copy_helper_block_e8_32s40r
+___destroy_helper_block_e8_32s40r
+-[NaverThirdPartyLoginConnection urlEncodeWithURLValidCharacters:]
+-[NaverThirdPartyLoginConnection getVersion]
+-[NaverThirdPartyLoginConnection setIsNaverAppOauthEnable:]
+-[NaverThirdPartyLoginConnection setIsInAppOauthEnable:]
+-[NaverThirdPartyLoginConnection setAuthorizationCode:]
+-[NaverThirdPartyLoginConnection currentLanguage]
+-[NaverThirdPartyLoginConnection isPossibleToOpenNaverApp]
+-[NaverThirdPartyLoginConnection isNotSupportedOldNaverApp]
+-[NaverThirdPartyLoginConnection openNaverAppForOAuth]
+-[NaverThirdPartyLoginConnection isNullUrlScheme]
+-[NaverThirdPartyLoginConnection getParameter:consumerSecret:token:]
+-[NaverThirdPartyLoginConnection getSignatureString:consumerSecret:tokenKey:]
+-[NaverThirdPartyLoginConnection loginFailWithErrorCode:]
+-[NaverThirdPartyLoginConnection setOnlyPortraitSupportInIphone:]
+-[NaverThirdPartyLoginConnection isOnlyPortraitSupportedInIphone]
+-[NaverThirdPartyLoginConnection openAppStoreForNaverApp]
++[NaverThirdPartyLoginConnection sizeWithText:withFont:]
+-[NaverThirdPartyLoginConnection successWithData:requestKey:]
+-[NaverThirdPartyLoginConnection failWithError:requestKey:]
+-[NaverThirdPartyLoginConnection didFailRequest:withDescription:]
+-[NaverThirdPartyLoginConnection delegate]
+-[NaverThirdPartyLoginConnection setDelegate:]
+-[NaverThirdPartyLoginConnection isNaverAppOauthEnable]
+-[NaverThirdPartyLoginConnection isInAppOauthEnable]
+-[NaverThirdPartyLoginConnection consumerKey]
+-[NaverThirdPartyLoginConnection setConsumerKey:]
+-[NaverThirdPartyLoginConnection consumerSecret]
+-[NaverThirdPartyLoginConnection setConsumerSecret:]
+-[NaverThirdPartyLoginConnection appName]
+-[NaverThirdPartyLoginConnection setAppName:]
+-[NaverThirdPartyLoginConnection serviceUrlScheme]
+-[NaverThirdPartyLoginConnection setServiceUrlScheme:]
+-[NaverThirdPartyLoginConnection accessToken]
+-[NaverThirdPartyLoginConnection accessTokenExpireDate]
+-[NaverThirdPartyLoginConnection refreshToken]
+-[NaverThirdPartyLoginConnection tokenType]
+-[NaverThirdPartyLoginConnection isBusy]
+-[NaverThirdPartyLoginConnection setIsBusy:]
+-[NaverThirdPartyLoginConnection setIsOnlyPortraitSupportedInIphone:]
+-[NaverThirdPartyLoginConnection oneTimeStateCode]
+-[NaverThirdPartyLoginConnection authCode]
+-[NaverThirdPartyLoginConnection setAuthCode:]
+-[NaverThirdPartyLoginConnection version]
+-[NaverThirdPartyLoginConnection setVersion:]
+-[NaverThirdPartyLoginConnection authSession]
+-[NaverThirdPartyLoginConnection setAuthSession:]
+-[NaverThirdPartyLoginConnection .cxx_destruct]
+_sharedInstance
+_OBJC_CLASSLIST_REFERENCES_$_.5
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_SELECTOR_REFERENCES_.31
+_OBJC_CLASSLIST_REFERENCES_$_.40
+_OBJC_SELECTOR_REFERENCES_.42
+_OBJC_SELECTOR_REFERENCES_.48
+_OBJC_SELECTOR_REFERENCES_.50
+_OBJC_SELECTOR_REFERENCES_.52
+_OBJC_SELECTOR_REFERENCES_.56
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_SELECTOR_REFERENCES_.62
+_OBJC_SELECTOR_REFERENCES_.64
+_OBJC_CLASSLIST_REFERENCES_$_.65
+_OBJC_SELECTOR_REFERENCES_.67
+_OBJC_SELECTOR_REFERENCES_.69
+_OBJC_SELECTOR_REFERENCES_.71
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_SELECTOR_REFERENCES_.81
+_OBJC_SELECTOR_REFERENCES_.83
+_OBJC_SELECTOR_REFERENCES_.85
+_OBJC_SELECTOR_REFERENCES_.87
+_OBJC_SELECTOR_REFERENCES_.91
+_OBJC_CLASSLIST_REFERENCES_$_.92
+_OBJC_SELECTOR_REFERENCES_.94
+_OBJC_SELECTOR_REFERENCES_.96
+_OBJC_SELECTOR_REFERENCES_.98
+_OBJC_SELECTOR_REFERENCES_.100
+_OBJC_SELECTOR_REFERENCES_.104
+_OBJC_SELECTOR_REFERENCES_.108
+_OBJC_SELECTOR_REFERENCES_.112
+_OBJC_SELECTOR_REFERENCES_.114
+_OBJC_SELECTOR_REFERENCES_.116
+_OBJC_SELECTOR_REFERENCES_.122
+_OBJC_SELECTOR_REFERENCES_.124
+_OBJC_SELECTOR_REFERENCES_.130
+_OBJC_SELECTOR_REFERENCES_.132
+_OBJC_SELECTOR_REFERENCES_.136
+_OBJC_SELECTOR_REFERENCES_.138
+_OBJC_CLASSLIST_REFERENCES_$_.139
+_OBJC_SELECTOR_REFERENCES_.141
+_OBJC_SELECTOR_REFERENCES_.143
+_OBJC_SELECTOR_REFERENCES_.145
+_OBJC_SELECTOR_REFERENCES_.147
+_OBJC_SELECTOR_REFERENCES_.149
+_OBJC_SELECTOR_REFERENCES_.151
+_OBJC_SELECTOR_REFERENCES_.153
+_OBJC_SELECTOR_REFERENCES_.155
+_OBJC_SELECTOR_REFERENCES_.159
+_OBJC_CLASSLIST_REFERENCES_$_.160
+_OBJC_SELECTOR_REFERENCES_.162
+_OBJC_SELECTOR_REFERENCES_.164
+_OBJC_CLASSLIST_REFERENCES_$_.165
+_OBJC_SELECTOR_REFERENCES_.167
+___block_descriptor_40_e8_32s_e27_v24?0"NSURL"8"NSError"16l
+_OBJC_SELECTOR_REFERENCES_.170
+_OBJC_SELECTOR_REFERENCES_.172
+_OBJC_CLASSLIST_REFERENCES_$_.173
+_OBJC_SELECTOR_REFERENCES_.175
+_OBJC_SELECTOR_REFERENCES_.177
+_OBJC_SELECTOR_REFERENCES_.179
+_OBJC_SELECTOR_REFERENCES_.183
+_OBJC_SELECTOR_REFERENCES_.189
+_OBJC_CLASSLIST_REFERENCES_$_.190
+_OBJC_SELECTOR_REFERENCES_.192
+_OBJC_SELECTOR_REFERENCES_.194
+_OBJC_SELECTOR_REFERENCES_.196
+_OBJC_SELECTOR_REFERENCES_.198
+_OBJC_CLASSLIST_REFERENCES_$_.201
+___block_descriptor_32_e5_v8?0l
+___block_literal_global
+_OBJC_CLASSLIST_REFERENCES_$_.209
+_OBJC_SELECTOR_REFERENCES_.213
+_OBJC_SELECTOR_REFERENCES_.215
+___block_literal_global.216
+_OBJC_SELECTOR_REFERENCES_.218
+_OBJC_SELECTOR_REFERENCES_.220
+___block_literal_global.225
+___block_literal_global.226
+___block_literal_global.231
+_OBJC_SELECTOR_REFERENCES_.233
+_OBJC_SELECTOR_REFERENCES_.235
+_OBJC_SELECTOR_REFERENCES_.237
+_OBJC_SELECTOR_REFERENCES_.239
+_OBJC_SELECTOR_REFERENCES_.241
+_OBJC_CLASSLIST_REFERENCES_$_.242
+_OBJC_SELECTOR_REFERENCES_.244
+_OBJC_SELECTOR_REFERENCES_.246
+_OBJC_SELECTOR_REFERENCES_.248
+_OBJC_SELECTOR_REFERENCES_.256
+_OBJC_SELECTOR_REFERENCES_.258
+_OBJC_SELECTOR_REFERENCES_.260
+_OBJC_CLASSLIST_REFERENCES_$_.263
+_OBJC_SELECTOR_REFERENCES_.265
+_OBJC_SELECTOR_REFERENCES_.269
+_OBJC_CLASSLIST_REFERENCES_$_.270
+_OBJC_SELECTOR_REFERENCES_.272
+_OBJC_CLASSLIST_REFERENCES_$_.273
+_OBJC_SELECTOR_REFERENCES_.275
+_OBJC_SELECTOR_REFERENCES_.277
+_OBJC_SELECTOR_REFERENCES_.279
+_OBJC_SELECTOR_REFERENCES_.281
+_OBJC_SELECTOR_REFERENCES_.283
+_OBJC_SELECTOR_REFERENCES_.285
+_OBJC_SELECTOR_REFERENCES_.287
+_OBJC_SELECTOR_REFERENCES_.289
+_OBJC_SELECTOR_REFERENCES_.291
+_OBJC_SELECTOR_REFERENCES_.305
+_OBJC_CLASSLIST_REFERENCES_$_.308
+_OBJC_SELECTOR_REFERENCES_.312
+_OBJC_SELECTOR_REFERENCES_.314
+___block_descriptor_48_e8_32s40r_e46_v32?0"NSData"8"NSURLResponse"16"NSError"24l
+_OBJC_SELECTOR_REFERENCES_.317
+_OBJC_SELECTOR_REFERENCES_.319
+_OBJC_SELECTOR_REFERENCES_.321
+_OBJC_SELECTOR_REFERENCES_.337
+_OBJC_SELECTOR_REFERENCES_.341
+_OBJC_CLASSLIST_REFERENCES_$_.346
+_OBJC_SELECTOR_REFERENCES_.348
+_OBJC_SELECTOR_REFERENCES_.350
+_OBJC_SELECTOR_REFERENCES_.352
+_OBJC_SELECTOR_REFERENCES_.356
+_OBJC_SELECTOR_REFERENCES_.364
+_OBJC_CLASSLIST_REFERENCES_$_.373
+_OBJC_SELECTOR_REFERENCES_.375
+_OBJC_SELECTOR_REFERENCES_.383
+_OBJC_CLASSLIST_REFERENCES_$_.384
+_OBJC_SELECTOR_REFERENCES_.386
+_OBJC_SELECTOR_REFERENCES_.388
+_OBJC_SELECTOR_REFERENCES_.390
+_OBJC_SELECTOR_REFERENCES_.392
+_OBJC_CLASSLIST_REFERENCES_$_.395
+_OBJC_SELECTOR_REFERENCES_.397
+_OBJC_SELECTOR_REFERENCES_.399
+__OBJC_$_CLASS_METHODS_NaverThirdPartyLoginConnection
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_SFSafariViewControllerDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SFSafariViewControllerDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_SFSafariViewControllerDelegate
+__OBJC_PROTOCOL_$_SFSafariViewControllerDelegate
+__OBJC_LABEL_PROTOCOL_$_SFSafariViewControllerDelegate
+__OBJC_$_PROTOCOL_REFS_UIAlertViewDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIAlertViewDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIAlertViewDelegate
+__OBJC_PROTOCOL_$_UIAlertViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UIAlertViewDelegate
+__OBJC_$_PROTOCOL_REFS_UIApplicationDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIApplicationDelegate
+__OBJC_$_PROP_LIST_UIApplicationDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIApplicationDelegate
+__OBJC_PROTOCOL_$_UIApplicationDelegate
+__OBJC_LABEL_PROTOCOL_$_UIApplicationDelegate
+__OBJC_CLASS_PROTOCOLS_$_NaverThirdPartyLoginConnection
+__OBJC_METACLASS_RO_$_NaverThirdPartyLoginConnection
+__OBJC_$_INSTANCE_METHODS_NaverThirdPartyLoginConnection
+_OBJC_IVAR_$_NaverThirdPartyLoginConnection._isNaverAppOauthEnable
+_OBJC_IVAR_$_NaverThirdPartyLoginConnection._isInAppOauthEnable
+_OBJC_IVAR_$_NaverThirdPartyLoginConnection._isBusy
+_OBJC_IVAR_$_NaverThirdPartyLoginConnection._isOnlyPortraitSupportedInIphone
+_OBJC_IVAR_$_NaverThirdPartyLoginConnection._delegate
+_OBJC_IVAR_$_NaverThirdPartyLoginConnection._consumerKey
+_OBJC_IVAR_$_NaverThirdPartyLoginConnection._consumerSecret
+_OBJC_IVAR_$_NaverThirdPartyLoginConnection._appName
+_OBJC_IVAR_$_NaverThirdPartyLoginConnection._serviceUrlScheme
+_OBJC_IVAR_$_NaverThirdPartyLoginConnection._accessToken
+_OBJC_IVAR_$_NaverThirdPartyLoginConnection._accessTokenExpireDate
+_OBJC_IVAR_$_NaverThirdPartyLoginConnection._refreshToken
+_OBJC_IVAR_$_NaverThirdPartyLoginConnection._tokenType
+_OBJC_IVAR_$_NaverThirdPartyLoginConnection._oneTimeStateCode
+_OBJC_IVAR_$_NaverThirdPartyLoginConnection._authCode
+_OBJC_IVAR_$_NaverThirdPartyLoginConnection._version
+_OBJC_IVAR_$_NaverThirdPartyLoginConnection._authSession
+__OBJC_$_INSTANCE_VARIABLES_NaverThirdPartyLoginConnection
+__OBJC_$_PROP_LIST_NaverThirdPartyLoginConnection
+__OBJC_CLASS_RO_$_NaverThirdPartyLoginConnection
+/Users/user/Documents/dev/naverid-3rdparty-sdk-ios/NaverOAuthSample/thirdPartyModule/NaverThirdPartyLoginConnection.m
+NaverOAuthSample/thirdPartyModule/NaverThirdPartyLoginConnection.m
+NaverOAuthSample/thirdPartyModule/NaverThirdPartyLoginConnection.h
+__destroy_helper_block_e8_32s40r
+__copy_helper_block_e8_32s40r
+__73-[NaverThirdPartyLoginConnection requestUrlConnectionWithUrl:requestKey:]_block_invoke
+__53-[NaverThirdPartyLoginConnection receiveAccessToken:]_block_invoke_5
+__53-[NaverThirdPartyLoginConnection receiveAccessToken:]_block_invoke_4
+__53-[NaverThirdPartyLoginConnection receiveAccessToken:]_block_invoke_3
+__53-[NaverThirdPartyLoginConnection receiveAccessToken:]_block_invoke_2
+__53-[NaverThirdPartyLoginConnection receiveAccessToken:]_block_invoke
+__copy_helper_block_e8_32s
+__59-[NaverThirdPartyLoginConnection requestRequestCodeByInApp]_block_invoke
+llvm.loop.mustprogress
++[TLSignatureUtil digestMessage:withKey:]
++[TLSignatureUtil digestMessage:withKeyData:]
++[TLSignatureUtil digestMessageData:withKeyData:]
++[TLSignatureUtil macContextWithKey:]
++[TLSignatureUtil digestMessage:withMacContext:]
++[TLSignatureUtil digestMessageData:withMacContext:]
+__OBJC_$_CLASS_METHODS_TLSignatureUtil
+__OBJC_METACLASS_RO_$_TLSignatureUtil
+__OBJC_CLASS_RO_$_TLSignatureUtil
+/Users/user/Documents/dev/naverid-3rdparty-sdk-ios/NaverOAuthSample/thirdPartyModule/NLoginSignature/TLSignatureUtil.m
+NaverOAuthSample/thirdPartyModule/NLoginSignature/TLSignatureUtil.m
