@@ -55,7 +55,7 @@
 
 + (CGSize)sizeWithText:(NSString *)originText withFont:(UIFont *)textFont;
 
-+ (void)scene:(UIScene *)scene openURLContexts:(NSSet<UIOpenURLContext *> *)URLContexts API_AVAILABLE(ios(13.0));
+- (void)scene:(UIScene *)scene openURLContexts:(NSSet<UIOpenURLContext *> *)URLContexts API_AVAILABLE(ios(13.0));
 
 @end
 

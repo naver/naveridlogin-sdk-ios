@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/NaverThirdPartyLoginConnection.h</key>
 		<data>
-		QN+HaXU9VBQemXXPeMCnUjCDM1w=
+		LY0DaHBqaAUcTRJQaijgltVvpUk=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -109,11 +109,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QN+HaXU9VBQemXXPeMCnUjCDM1w=
+			LY0DaHBqaAUcTRJQaijgltVvpUk=
 			</data>
 			<key>hash2</key>
 			<data>
-			RTz7l6omC5VdsjaDzLhV1nFHXTANkybWrKThsWVytOw=
+			nWZkl1IBiw0wVpdysORE1TitmH0R7Un8r3C9MKm9ggA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
