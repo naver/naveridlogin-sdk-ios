@@ -34,6 +34,7 @@
 - (OAuthLoginState)state;
 
 - (void)requestThirdPartyLogin;
+- (void)requestThirdPartyLoginWithReprompt;
 - (void)requestAccessTokenWithRefreshToken;
 - (void)requestDeleteToken;
 
@@ -55,7 +56,7 @@
 
 + (CGSize)sizeWithText:(NSString *)originText withFont:(UIFont *)textFont;
 
-+ (void)scene:(UIScene *)scene openURLContexts:(NSSet<UIOpenURLContext *> *)URLContexts API_AVAILABLE(ios(13.0));
+- (void)scene:(UIScene *)scene openURLContexts:(NSSet<UIOpenURLContext *> *)URLContexts API_AVAILABLE(ios(13.0));
 
 @end
 
@@ -65,7 +66,8 @@
 - (void)oauth20ConnectionDidFinishDeleteToken;
 - (void)oauth20Connection:(NaverThirdPartyLoginConnection *)oauthConnection didFailWithError:(NSError *)error;
 @optional
-- (void)oauth20Connection:(NaverThirdPartyLoginConnection *)oauthConnection didFailAuthorizationWithRecieveType:(THIRDPARTYLOGIN_RECEIVE_TYPE)recieveType;
-- (void)oauth20Connection:(NaverThirdPartyLoginConnection *)oauthConnection didFinishAuthorizationWithResult:(THIRDPARTYLOGIN_RECEIVE_TYPE)recieveType;
+- (void)oauth20Connection:(NaverThirdPartyLoginConnection *)oauthConnection didFailAuthorizationWithReceiveType:(THIRDPARTYLOGIN_RECEIVE_TYPE)receiveType;
+- (void)oauth20Connection:(NaverThirdPartyLoginConnection *)oauthConnection didFinishAuthorizationWithResult:(THIRDPARTYLOGIN_RECEIVE_TYPE)receiveType;
 @end
+
 

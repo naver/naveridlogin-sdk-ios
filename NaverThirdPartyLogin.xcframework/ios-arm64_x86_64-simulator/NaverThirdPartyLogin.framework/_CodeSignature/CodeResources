@@ -14,15 +14,15 @@
 		</data>
 		<key>Headers/NaverThirdPartyLoginConnection.h</key>
 		<data>
-		E33d0BGcIFY3hhu+OP6pL664OKU=
+		bl+Kbixi1FLsfN/sePVKr4HH3BM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZlMNfFjXA4R65rCqO9RZvXZ0WSo=
+		OK7IyvtejHENbw1Bh76Lj5RTnRc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		pyDEJVoTx5AkxmW7/+ytaG1ni/0=
+		L3QferSGTx3zsdRDkg4lFv68Aow=
 		</data>
 		<key>NaverAuth.bundle/btn_notice_close_normal@2x.png</key>
 		<data>
@@ -80,6 +80,10 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		6PyG/Sn5jh81qqGDYJ701GSxHBw=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -109,22 +113,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			E33d0BGcIFY3hhu+OP6pL664OKU=
+			bl+Kbixi1FLsfN/sePVKr4HH3BM=
 			</data>
 			<key>hash2</key>
 			<data>
-			AM1Qj2cnDSwL2IobsVY9kcdYTSfFUU3XkshtLFW2OXw=
+			q86MZZ+3C5S1VStUSywf9FrlBV6VhOYbA2qzgh0bxNs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pyDEJVoTx5AkxmW7/+ytaG1ni/0=
+			L3QferSGTx3zsdRDkg4lFv68Aow=
 			</data>
 			<key>hash2</key>
 			<data>
-			hPq8j1Ykuilvze0cO9F9frEP2gFBBLtbfXXU/rmn0Y0=
+			FrYkdCFxc85C67Bg15fejNbNARhmgz8oEPe4xIkQRg4=
 			</data>
 		</dict>
 		<key>NaverAuth.bundle/btn_notice_close_normal@2x.png</key>
@@ -233,6 +237,17 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6PyG/Sn5jh81qqGDYJ701GSxHBw=
+			</data>
+			<key>hash2</key>
+			<data>
+			3I1+H5p9p/M4HzB0a1kgbuYs4iW2n+O8u2YjT4RZvjU=
+			</data>
 		</dict>
 	</dict>
 	<key>rules</key>

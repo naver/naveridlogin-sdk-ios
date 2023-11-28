@@ -5,6 +5,8 @@
 	<key>AvailableLibraries</key>
 	<array>
 		<dict>
+			<key>BinaryPath</key>
+			<string>NaverThirdPartyLogin.framework/NaverThirdPartyLogin</string>
 			<key>DebugSymbolsPath</key>
 			<string>dSYMs</string>
 			<key>LibraryIdentifier</key>
@@ -22,8 +24,8 @@
 			<string>simulator</string>
 		</dict>
 		<dict>
-			<key>BitcodeSymbolMapsPath</key>
-			<string>BCSymbolMaps</string>
+			<key>BinaryPath</key>
+			<string>NaverThirdPartyLogin.framework/NaverThirdPartyLogin</string>
 			<key>DebugSymbolsPath</key>
 			<string>dSYMs</string>
 			<key>LibraryIdentifier</key>

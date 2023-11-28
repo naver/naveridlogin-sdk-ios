@@ -1,0 +1,161 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/user/Library/Developer/Xcode/DerivedData/Naver20OAuthSample-cupxqtiazemuipabxoxypclehbnv/Build/Intermediates.noindex/ArchiveIntermediates/NaverThirdPartyLogin/InstallationBuildProductsLocation/Library/Frameworks/NaverThirdPartyLogin.framework/NaverThirdPartyLogin'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x57BB8, size: 0x8, addend: 0x0, symName: _NaverThirdPartyLoginVersionString, symObjAddr: 0x0, symBinAddr: 0x8300, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x57BED, size: 0x8, addend: 0x0, symName: _NaverThirdPartyLoginVersionNumber, symObjAddr: 0x40, symBinAddr: 0x8340, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x57C2A, size: 0x8, addend: 0x0, symName: '+[NaverThirdPartyLoginURLSession sendRequestWith:requestKey:completion:]', symObjAddr: 0x0, symBinAddr: 0x2160, symSize: 0x1DC }
+  - { offsetInCU: 0xD5, offset: 0x57CD8, size: 0x8, addend: 0x0, symName: '+[NaverThirdPartyLoginURLSession sendRequestWith:requestKey:completion:]', symObjAddr: 0x0, symBinAddr: 0x2160, symSize: 0x1DC }
+  - { offsetInCU: 0x2AF, offset: 0x57EB2, size: 0x8, addend: 0x0, symName: '___72+[NaverThirdPartyLoginURLSession sendRequestWith:requestKey:completion:]_block_invoke', symObjAddr: 0x1DC, symBinAddr: 0x233C, symSize: 0xF3 }
+  - { offsetInCU: 0x449, offset: 0x5804C, size: 0x8, addend: 0x0, symName: '___72+[NaverThirdPartyLoginURLSession sendRequestWith:requestKey:completion:]_block_invoke_2', symObjAddr: 0x2CF, symBinAddr: 0x242F, symSize: 0x1F }
+  - { offsetInCU: 0x4C0, offset: 0x580C3, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56b, symObjAddr: 0x2EE, symBinAddr: 0x244E, symSize: 0x4B }
+  - { offsetInCU: 0x50D, offset: 0x58110, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x339, symBinAddr: 0x2499, symSize: 0x33 }
+  - { offsetInCU: 0x55C, offset: 0x5815F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x36C, symBinAddr: 0x24CC, symSize: 0x17 }
+  - { offsetInCU: 0x585, offset: 0x58188, size: 0x8, addend: 0x0, symName: '+[NaverThirdPartyLoginURLSession session]', symObjAddr: 0x392, symBinAddr: 0x24F2, symSize: 0xA2 }
+  - { offsetInCU: 0x61E, offset: 0x58221, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginURLSession requestKey]', symObjAddr: 0x434, symBinAddr: 0x2594, symSize: 0x10 }
+  - { offsetInCU: 0x653, offset: 0x58256, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginURLSession setRequestKey:]', symObjAddr: 0x444, symBinAddr: 0x25A4, symSize: 0x10 }
+  - { offsetInCU: 0x690, offset: 0x58293, size: 0x8, addend: 0x0, symName: '+[NSError(NaverThirdPartyLoginURLSession) errorWithErrorInfo:]', symObjAddr: 0x454, symBinAddr: 0x25B4, symSize: 0x7C }
+  - { offsetInCU: 0x27, offset: 0x58542, size: 0x8, addend: 0x0, symName: '-[NaverOAuth20Result initData:]', symObjAddr: 0x0, symBinAddr: 0x2630, symSize: 0x6E }
+  - { offsetInCU: 0xF3, offset: 0x5860E, size: 0x8, addend: 0x0, symName: '-[NaverOAuth20Result initData:]', symObjAddr: 0x0, symBinAddr: 0x2630, symSize: 0x6E }
+  - { offsetInCU: 0x1BA, offset: 0x586D5, size: 0x8, addend: 0x0, symName: '-[NaverOAuth20Result setOAuthResult:]', symObjAddr: 0x6E, symBinAddr: 0x269E, symSize: 0x1DE }
+  - { offsetInCU: 0x3D5, offset: 0x588F0, size: 0x8, addend: 0x0, symName: '-[NaverOAuth20Result init]', symObjAddr: 0x24C, symBinAddr: 0x287C, symSize: 0x90 }
+  - { offsetInCU: 0x454, offset: 0x5896F, size: 0x8, addend: 0x0, symName: '-[NaverOAuth20Result dealloc]', symObjAddr: 0x2DC, symBinAddr: 0x290C, symSize: 0x8D }
+  - { offsetInCU: 0x4B7, offset: 0x589D2, size: 0x8, addend: 0x0, symName: '-[NaverOAuth20Result errorCode]', symObjAddr: 0x369, symBinAddr: 0x2999, symSize: 0xA }
+  - { offsetInCU: 0x4EC, offset: 0x58A07, size: 0x8, addend: 0x0, symName: '-[NaverOAuth20Result setErrorCode:]', symObjAddr: 0x373, symBinAddr: 0x29A3, symSize: 0x11 }
+  - { offsetInCU: 0x52B, offset: 0x58A46, size: 0x8, addend: 0x0, symName: '-[NaverOAuth20Result errorDescription]', symObjAddr: 0x384, symBinAddr: 0x29B4, symSize: 0xA }
+  - { offsetInCU: 0x560, offset: 0x58A7B, size: 0x8, addend: 0x0, symName: '-[NaverOAuth20Result setErrorDescription:]', symObjAddr: 0x38E, symBinAddr: 0x29BE, symSize: 0x11 }
+  - { offsetInCU: 0x59F, offset: 0x58ABA, size: 0x8, addend: 0x0, symName: '-[NaverOAuth20Result accessToken]', symObjAddr: 0x39F, symBinAddr: 0x29CF, symSize: 0xA }
+  - { offsetInCU: 0x5D4, offset: 0x58AEF, size: 0x8, addend: 0x0, symName: '-[NaverOAuth20Result setAccessToken:]', symObjAddr: 0x3A9, symBinAddr: 0x29D9, symSize: 0x11 }
+  - { offsetInCU: 0x613, offset: 0x58B2E, size: 0x8, addend: 0x0, symName: '-[NaverOAuth20Result refreshToken]', symObjAddr: 0x3BA, symBinAddr: 0x29EA, symSize: 0xA }
+  - { offsetInCU: 0x648, offset: 0x58B63, size: 0x8, addend: 0x0, symName: '-[NaverOAuth20Result setRefreshToken:]', symObjAddr: 0x3C4, symBinAddr: 0x29F4, symSize: 0x11 }
+  - { offsetInCU: 0x687, offset: 0x58BA2, size: 0x8, addend: 0x0, symName: '-[NaverOAuth20Result tokenType]', symObjAddr: 0x3D5, symBinAddr: 0x2A05, symSize: 0xA }
+  - { offsetInCU: 0x6BC, offset: 0x58BD7, size: 0x8, addend: 0x0, symName: '-[NaverOAuth20Result setTokenType:]', symObjAddr: 0x3DF, symBinAddr: 0x2A0F, symSize: 0x11 }
+  - { offsetInCU: 0x6FB, offset: 0x58C16, size: 0x8, addend: 0x0, symName: '-[NaverOAuth20Result accessTokenExpireDate]', symObjAddr: 0x3F0, symBinAddr: 0x2A20, symSize: 0xA }
+  - { offsetInCU: 0x730, offset: 0x58C4B, size: 0x8, addend: 0x0, symName: '-[NaverOAuth20Result setAccessTokenExpireDate:]', symObjAddr: 0x3FA, symBinAddr: 0x2A2A, symSize: 0x11 }
+  - { offsetInCU: 0x76F, offset: 0x58C8A, size: 0x8, addend: 0x0, symName: '-[NaverOAuth20Result .cxx_destruct]', symObjAddr: 0x40B, symBinAddr: 0x2A3B, symSize: 0x54 }
+  - { offsetInCU: 0x27, offset: 0x58D0D, size: 0x8, addend: 0x0, symName: '-[NaverLoginAlertViewController viewDidLoad]', symObjAddr: 0x0, symBinAddr: 0x2A8F, symSize: 0x2F }
+  - { offsetInCU: 0x6C, offset: 0x58D52, size: 0x8, addend: 0x0, symName: '-[NaverLoginAlertViewController viewDidLoad]', symObjAddr: 0x0, symBinAddr: 0x2A8F, symSize: 0x2F }
+  - { offsetInCU: 0x9F, offset: 0x58D85, size: 0x8, addend: 0x0, symName: '+[NaverLoginAlertViewController cancelAlertViewWithTitle:message:cancelTitle:cancelAction:]', symObjAddr: 0x2F, symBinAddr: 0x2ABE, symSize: 0xC6 }
+  - { offsetInCU: 0x1B6, offset: 0x58E9C, size: 0x8, addend: 0x0, symName: '+[NaverLoginAlertViewController alertViewWithTilte:message:okTitle:cancelTitle:okAction:cancelAction:]', symObjAddr: 0xF5, symBinAddr: 0x2B84, symSize: 0x13E }
+  - { offsetInCU: 0x36D, offset: 0x59053, size: 0x8, addend: 0x0, symName: '-[NaverLoginAlertViewController okActionWithTitle:completion:]', symObjAddr: 0x233, symBinAddr: 0x2CC2, symSize: 0xB2 }
+  - { offsetInCU: 0x419, offset: 0x590FF, size: 0x8, addend: 0x0, symName: '___62-[NaverLoginAlertViewController okActionWithTitle:completion:]_block_invoke', symObjAddr: 0x2E5, symBinAddr: 0x2D74, symSize: 0xC }
+  - { offsetInCU: 0x46C, offset: 0x59152, size: 0x8, addend: 0x0, symName: '-[NaverLoginAlertViewController cancelActionWithTitle:completion:]', symObjAddr: 0x317, symBinAddr: 0x2D80, symSize: 0xB5 }
+  - { offsetInCU: 0x518, offset: 0x591FE, size: 0x8, addend: 0x0, symName: '___66-[NaverLoginAlertViewController cancelActionWithTitle:completion:]_block_invoke', symObjAddr: 0x3CC, symBinAddr: 0x2E35, symSize: 0xC }
+  - { offsetInCU: 0x56B, offset: 0x59251, size: 0x8, addend: 0x0, symName: '-[NaverLoginAlertViewController cancelActionWithTitle:]', symObjAddr: 0x3D8, symBinAddr: 0x2E41, symSize: 0x21 }
+  - { offsetInCU: 0x5D9, offset: 0x592BF, size: 0x8, addend: 0x0, symName: '-[NaverLoginAlertViewController show]', symObjAddr: 0x3F9, symBinAddr: 0x2E62, symSize: 0x229 }
+  - { offsetInCU: 0x7D2, offset: 0x594B8, size: 0x8, addend: 0x0, symName: '-[NaverLoginAlertViewController viewWillAppear:]', symObjAddr: 0x622, symBinAddr: 0x308B, symSize: 0x6C }
+  - { offsetInCU: 0x848, offset: 0x5952E, size: 0x8, addend: 0x0, symName: '-[NaverLoginAlertViewController viewWillDisappear:]', symObjAddr: 0x68E, symBinAddr: 0x30F7, symSize: 0x82 }
+  - { offsetInCU: 0x8D8, offset: 0x595BE, size: 0x8, addend: 0x0, symName: '-[NaverLoginAlertViewController alertWindow]', symObjAddr: 0x710, symBinAddr: 0x3179, symSize: 0x11 }
+  - { offsetInCU: 0x90D, offset: 0x595F3, size: 0x8, addend: 0x0, symName: '-[NaverLoginAlertViewController setAlertWindow:]', symObjAddr: 0x721, symBinAddr: 0x318A, symSize: 0x14 }
+  - { offsetInCU: 0x94C, offset: 0x59632, size: 0x8, addend: 0x0, symName: '-[NaverLoginAlertViewController .cxx_destruct]', symObjAddr: 0x735, symBinAddr: 0x319E, symSize: 0x13 }
+  - { offsetInCU: 0x27, offset: 0x59847, size: 0x8, addend: 0x0, symName: '+[NaverThirdPartyLoginUserAgent modelName]', symObjAddr: 0x0, symBinAddr: 0x31B1, symSize: 0x72 }
+  - { offsetInCU: 0x5F, offset: 0x5987F, size: 0x8, addend: 0x0, symName: '+[NaverThirdPartyLoginUserAgent modelName]', symObjAddr: 0x0, symBinAddr: 0x31B1, symSize: 0x72 }
+  - { offsetInCU: 0xEF, offset: 0x5990F, size: 0x8, addend: 0x0, symName: '+[NaverThirdPartyLoginUserAgent userAgentForThirdPartyLogin]', symObjAddr: 0x72, symBinAddr: 0x3223, symSize: 0x20F }
+  - { offsetInCU: 0x27, offset: 0x59B68, size: 0x8, addend: 0x0, symName: '+[NaverThirdPartyLoginConnection getSharedInstance]', symObjAddr: 0x0, symBinAddr: 0x3440, symSize: 0x82 }
+  - { offsetInCU: 0x41, offset: 0x59B82, size: 0x8, addend: 0x0, symName: _sharedInstance, symObjAddr: 0x193A8, symBinAddr: 0xFA58, symSize: 0x0 }
+  - { offsetInCU: 0x37D, offset: 0x59EBE, size: 0x8, addend: 0x0, symName: '+[NaverThirdPartyLoginConnection getSharedInstance]', symObjAddr: 0x0, symBinAddr: 0x3440, symSize: 0x82 }
+  - { offsetInCU: 0x3F5, offset: 0x59F36, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection init]', symObjAddr: 0x82, symBinAddr: 0x34C2, symSize: 0x34D }
+  - { offsetInCU: 0x660, offset: 0x5A1A1, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection setAccessToken:]', symObjAddr: 0x3CF, symBinAddr: 0x380F, symSize: 0xB4 }
+  - { offsetInCU: 0x72B, offset: 0x5A26C, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection setAccessTokenExpireDate:]', symObjAddr: 0x483, symBinAddr: 0x38C3, symSize: 0xB4 }
+  - { offsetInCU: 0x7F6, offset: 0x5A337, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection setRefreshToken:]', symObjAddr: 0x537, symBinAddr: 0x3977, symSize: 0xB4 }
+  - { offsetInCU: 0x8C1, offset: 0x5A402, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection setTokenType:]', symObjAddr: 0x5EB, symBinAddr: 0x3A2B, symSize: 0xB4 }
+  - { offsetInCU: 0x98C, offset: 0x5A4CD, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection application:openURL:sourceApplication:annotation:]', symObjAddr: 0x69F, symBinAddr: 0x3ADF, symSize: 0x15 }
+  - { offsetInCU: 0xA10, offset: 0x5A551, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection application:openURL:options:]', symObjAddr: 0x6B4, symBinAddr: 0x3AF4, symSize: 0x15 }
+  - { offsetInCU: 0xA88, offset: 0x5A5C9, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection scene:openURLContexts:]', symObjAddr: 0x6C9, symBinAddr: 0x3B09, symSize: 0x17A }
+  - { offsetInCU: 0xC10, offset: 0x5A751, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection parameterValueWithUrl:paramName:]', symObjAddr: 0x843, symBinAddr: 0x3C83, symSize: 0x319 }
+  - { offsetInCU: 0xE4D, offset: 0x5A98E, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection checkScheme:]', symObjAddr: 0xB5C, symBinAddr: 0x3F9C, symSize: 0x9E }
+  - { offsetInCU: 0xF08, offset: 0x5AA49, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection handleurl:]', symObjAddr: 0xBFA, symBinAddr: 0x403A, symSize: 0x5E0 }
+  - { offsetInCU: 0x147B, offset: 0x5AFBC, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection requestThirdPartyLogin]', symObjAddr: 0x11DA, symBinAddr: 0x461A, symSize: 0x23F }
+  - { offsetInCU: 0x15E5, offset: 0x5B126, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection requestThirdPartyLoginWithReprompt]', symObjAddr: 0x1419, symBinAddr: 0x4859, symSize: 0x1CF }
+  - { offsetInCU: 0x16E2, offset: 0x5B223, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection requestRequestCodeByInAppWithAuthtype:]', symObjAddr: 0x15E8, symBinAddr: 0x4A28, symSize: 0x38F }
+  - { offsetInCU: 0x19D0, offset: 0x5B511, size: 0x8, addend: 0x0, symName: '___72-[NaverThirdPartyLoginConnection requestRequestCodeByInAppWithAuthtype:]_block_invoke', symObjAddr: 0x1977, symBinAddr: 0x4DB7, symSize: 0x1C }
+  - { offsetInCU: 0x1A51, offset: 0x5B592, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x1993, symBinAddr: 0x4DD3, symSize: 0xF }
+  - { offsetInCU: 0x1A84, offset: 0x5B5C5, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x19A2, symBinAddr: 0x4DE2, symSize: 0xF }
+  - { offsetInCU: 0x1AAF, offset: 0x5B5F0, size: 0x8, addend: 0x0, symName: '___72-[NaverThirdPartyLoginConnection requestRequestCodeByInAppWithAuthtype:]_block_invoke.182', symObjAddr: 0x19B1, symBinAddr: 0x4DF1, symSize: 0x1C }
+  - { offsetInCU: 0x1B30, offset: 0x5B671, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection authHandleWithURL:error:]', symObjAddr: 0x19CD, symBinAddr: 0x4E0D, symSize: 0xB5 }
+  - { offsetInCU: 0x1C39, offset: 0x5B77A, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection safariViewControllerDidFinish:]', symObjAddr: 0x1A82, symBinAddr: 0x4EC2, symSize: 0x49 }
+  - { offsetInCU: 0x1CA9, offset: 0x5B7EA, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection requestAccessTokenWithRefreshToken]', symObjAddr: 0x1ACB, symBinAddr: 0x4F0B, symSize: 0x73 }
+  - { offsetInCU: 0x1CFD, offset: 0x5B83E, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection requestDeleteToken]', symObjAddr: 0x1B3E, symBinAddr: 0x4F7E, symSize: 0x73 }
+  - { offsetInCU: 0x1D51, offset: 0x5B892, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection state]', symObjAddr: 0x1BB1, symBinAddr: 0x4FF1, symSize: 0x84 }
+  - { offsetInCU: 0x1DBF, offset: 0x5B900, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection osVersion]', symObjAddr: 0x1C35, symBinAddr: 0x5075, symSize: 0xC9 }
+  - { offsetInCU: 0x1E6C, offset: 0x5B9AD, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection isValidAccessTokenExpireTimeNow]', symObjAddr: 0x1CFE, symBinAddr: 0x513E, symSize: 0x95 }
+  - { offsetInCU: 0x1F13, offset: 0x5BA54, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection receiveAccessToken:]', symObjAddr: 0x1D93, symBinAddr: 0x51D3, symSize: 0x22D }
+  - { offsetInCU: 0x2096, offset: 0x5BBD7, size: 0x8, addend: 0x0, symName: '___53-[NaverThirdPartyLoginConnection receiveAccessToken:]_block_invoke', symObjAddr: 0x1FC0, symBinAddr: 0x5400, symSize: 0x7F }
+  - { offsetInCU: 0x2113, offset: 0x5BC54, size: 0x8, addend: 0x0, symName: '___53-[NaverThirdPartyLoginConnection receiveAccessToken:]_block_invoke_2', symObjAddr: 0x203F, symBinAddr: 0x547F, symSize: 0x6 }
+  - { offsetInCU: 0x213C, offset: 0x5BC7D, size: 0x8, addend: 0x0, symName: '___53-[NaverThirdPartyLoginConnection receiveAccessToken:]_block_invoke_3', symObjAddr: 0x2045, symBinAddr: 0x5485, symSize: 0x7F }
+  - { offsetInCU: 0x21B9, offset: 0x5BCFA, size: 0x8, addend: 0x0, symName: '___53-[NaverThirdPartyLoginConnection receiveAccessToken:]_block_invoke_4', symObjAddr: 0x20C4, symBinAddr: 0x5504, symSize: 0x6 }
+  - { offsetInCU: 0x21E2, offset: 0x5BD23, size: 0x8, addend: 0x0, symName: '___53-[NaverThirdPartyLoginConnection receiveAccessToken:]_block_invoke_5', symObjAddr: 0x20CA, symBinAddr: 0x550A, symSize: 0x6 }
+  - { offsetInCU: 0x220B, offset: 0x5BD4C, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection resetToken]', symObjAddr: 0x20D0, symBinAddr: 0x5510, symSize: 0x50 }
+  - { offsetInCU: 0x22A8, offset: 0x5BDE9, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection userAgentForThirdPartyLogin]', symObjAddr: 0x2120, symBinAddr: 0x5560, symSize: 0x19 }
+  - { offsetInCU: 0x22E8, offset: 0x5BE29, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection removeNaverLoginCookie]', symObjAddr: 0x2139, symBinAddr: 0x5579, symSize: 0x17 }
+  - { offsetInCU: 0x2335, offset: 0x5BE76, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection urlRequestForAuthorizeCode]', symObjAddr: 0x2150, symBinAddr: 0x5590, symSize: 0x1C7 }
+  - { offsetInCU: 0x24DE, offset: 0x5C01F, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection urlForAuthorizeCodeWithAuthtype:]', symObjAddr: 0x2317, symBinAddr: 0x5757, symSize: 0x1F5 }
+  - { offsetInCU: 0x26C1, offset: 0x5C202, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection makeNewOneTimeStateCode]', symObjAddr: 0x250C, symBinAddr: 0x594C, symSize: 0x3E }
+  - { offsetInCU: 0x2791, offset: 0x5C2D2, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection setOneTimeStateCode:]', symObjAddr: 0x254A, symBinAddr: 0x598A, symSize: 0xB4 }
+  - { offsetInCU: 0x285E, offset: 0x5C39F, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection failWithGetAuthCode:withDescription:]', symObjAddr: 0x25FE, symBinAddr: 0x5A3E, symSize: 0x12 }
+  - { offsetInCU: 0x28D3, offset: 0x5C414, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection didFinishWithDataForJSSONParser:withRequestKey:]', symObjAddr: 0x2610, symBinAddr: 0x5A50, symSize: 0x403 }
+  - { offsetInCU: 0x2C0E, offset: 0x5C74F, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection requestAccessTokenWithAuthCode]', symObjAddr: 0x2A13, symBinAddr: 0x5E53, symSize: 0x17 }
+  - { offsetInCU: 0x2C5B, offset: 0x5C79C, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection urlConnectionWithType:]', symObjAddr: 0x2A2A, symBinAddr: 0x5E6A, symSize: 0x1B6 }
+  - { offsetInCU: 0x2D41, offset: 0x5C882, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection validOneTimeStateCode:]', symObjAddr: 0x2BE0, symBinAddr: 0x6020, symSize: 0x76 }
+  - { offsetInCU: 0x2DF6, offset: 0x5C937, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection requestUrlConnectionWithUrl:requestKey:]', symObjAddr: 0x2C56, symBinAddr: 0x6096, symSize: 0xFE }
+  - { offsetInCU: 0x2EC7, offset: 0x5CA08, size: 0x8, addend: 0x0, symName: '___73-[NaverThirdPartyLoginConnection requestUrlConnectionWithUrl:requestKey:]_block_invoke', symObjAddr: 0x2D54, symBinAddr: 0x6194, symSize: 0xD7 }
+  - { offsetInCU: 0x2FF9, offset: 0x5CB3A, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40r, symObjAddr: 0x2E2B, symBinAddr: 0x626B, symSize: 0x30 }
+  - { offsetInCU: 0x302E, offset: 0x5CB6F, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0x2E5B, symBinAddr: 0x629B, symSize: 0x27 }
+  - { offsetInCU: 0x3059, offset: 0x5CB9A, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection urlEncodeWithURLValidCharacters:]', symObjAddr: 0x2E82, symBinAddr: 0x62C2, symSize: 0x7E }
+  - { offsetInCU: 0x30F3, offset: 0x5CC34, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection getVersion]', symObjAddr: 0x2F00, symBinAddr: 0x6340, symSize: 0xD }
+  - { offsetInCU: 0x3127, offset: 0x5CC68, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection setIsNaverAppOauthEnable:]', symObjAddr: 0x2F0D, symBinAddr: 0x634D, symSize: 0x9A }
+  - { offsetInCU: 0x31C4, offset: 0x5CD05, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection setIsInAppOauthEnable:]', symObjAddr: 0x2FA7, symBinAddr: 0x63E7, symSize: 0x9A }
+  - { offsetInCU: 0x3261, offset: 0x5CDA2, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection setAuthorizationCode:]', symObjAddr: 0x3041, symBinAddr: 0x6481, symSize: 0xD0 }
+  - { offsetInCU: 0x333D, offset: 0x5CE7E, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection currentLanguage]', symObjAddr: 0x3111, symBinAddr: 0x6551, symSize: 0x24F }
+  - { offsetInCU: 0x347C, offset: 0x5CFBD, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection isPossibleToOpenNaverApp]', symObjAddr: 0x3360, symBinAddr: 0x67A0, symSize: 0xB4 }
+  - { offsetInCU: 0x3531, offset: 0x5D072, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection isNotSupportedOldNaverApp]', symObjAddr: 0x3414, symBinAddr: 0x6854, symSize: 0xB4 }
+  - { offsetInCU: 0x35E6, offset: 0x5D127, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection openNaverAppForOAuthWithAuthtype:]', symObjAddr: 0x34C8, symBinAddr: 0x6908, symSize: 0x1A4 }
+  - { offsetInCU: 0x3762, offset: 0x5D2A3, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection isNullUrlScheme]', symObjAddr: 0x366C, symBinAddr: 0x6AAC, symSize: 0x26 }
+  - { offsetInCU: 0x37A6, offset: 0x5D2E7, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection getParameter:consumerSecret:token:]', symObjAddr: 0x3692, symBinAddr: 0x6AD2, symSize: 0x28A }
+  - { offsetInCU: 0x3A1E, offset: 0x5D55F, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection getSignatureString:consumerSecret:tokenKey:]', symObjAddr: 0x391C, symBinAddr: 0x6D5C, symSize: 0x1A9 }
+  - { offsetInCU: 0x3BD5, offset: 0x5D716, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection loginFailWithErrorCode:]', symObjAddr: 0x3AC5, symBinAddr: 0x6F05, symSize: 0xC4 }
+  - { offsetInCU: 0x3C9B, offset: 0x5D7DC, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection setOnlyPortraitSupportInIphone:]', symObjAddr: 0x3B89, symBinAddr: 0x6FC9, symSize: 0x9 }
+  - { offsetInCU: 0x3CDC, offset: 0x5D81D, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection isOnlyPortraitSupportedInIphone]', symObjAddr: 0x3B92, symBinAddr: 0x6FD2, symSize: 0x9 }
+  - { offsetInCU: 0x3D12, offset: 0x5D853, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection openAppStoreForNaverApp]', symObjAddr: 0x3B9B, symBinAddr: 0x6FDB, symSize: 0x7F }
+  - { offsetInCU: 0x3DA3, offset: 0x5D8E4, size: 0x8, addend: 0x0, symName: '+[NaverThirdPartyLoginConnection sizeWithText:withFont:]', symObjAddr: 0x3C1A, symBinAddr: 0x705A, symSize: 0x174 }
+  - { offsetInCU: 0x3EED, offset: 0x5DA2E, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection successWithData:requestKey:]', symObjAddr: 0x3D8E, symBinAddr: 0x71CE, symSize: 0x1D }
+  - { offsetInCU: 0x3F49, offset: 0x5DA8A, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection failWithError:requestKey:]', symObjAddr: 0x3DAB, symBinAddr: 0x71EB, symSize: 0xF8 }
+  - { offsetInCU: 0x404A, offset: 0x5DB8B, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection didFailRequest:withDescription:]', symObjAddr: 0x3EA3, symBinAddr: 0x72E3, symSize: 0xCD }
+  - { offsetInCU: 0x412C, offset: 0x5DC6D, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection presentationAnchorForWebAuthenticationSession:]', symObjAddr: 0x3F70, symBinAddr: 0x73B0, symSize: 0x57 }
+  - { offsetInCU: 0x4199, offset: 0x5DCDA, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection delegate]', symObjAddr: 0x3FC7, symBinAddr: 0x7407, symSize: 0x16 }
+  - { offsetInCU: 0x41D0, offset: 0x5DD11, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection setDelegate:]', symObjAddr: 0x3FDD, symBinAddr: 0x741D, symSize: 0x11 }
+  - { offsetInCU: 0x420F, offset: 0x5DD50, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection isNaverAppOauthEnable]', symObjAddr: 0x3FEE, symBinAddr: 0x742E, symSize: 0x9 }
+  - { offsetInCU: 0x4244, offset: 0x5DD85, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection isInAppOauthEnable]', symObjAddr: 0x3FF7, symBinAddr: 0x7437, symSize: 0x9 }
+  - { offsetInCU: 0x4279, offset: 0x5DDBA, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection consumerKey]', symObjAddr: 0x4000, symBinAddr: 0x7440, symSize: 0xA }
+  - { offsetInCU: 0x42AE, offset: 0x5DDEF, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection setConsumerKey:]', symObjAddr: 0x400A, symBinAddr: 0x744A, symSize: 0x11 }
+  - { offsetInCU: 0x42ED, offset: 0x5DE2E, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection consumerSecret]', symObjAddr: 0x401B, symBinAddr: 0x745B, symSize: 0xA }
+  - { offsetInCU: 0x4322, offset: 0x5DE63, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection setConsumerSecret:]', symObjAddr: 0x4025, symBinAddr: 0x7465, symSize: 0x11 }
+  - { offsetInCU: 0x4361, offset: 0x5DEA2, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection appName]', symObjAddr: 0x4036, symBinAddr: 0x7476, symSize: 0xA }
+  - { offsetInCU: 0x4396, offset: 0x5DED7, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection setAppName:]', symObjAddr: 0x4040, symBinAddr: 0x7480, symSize: 0x11 }
+  - { offsetInCU: 0x43D5, offset: 0x5DF16, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection serviceUrlScheme]', symObjAddr: 0x4051, symBinAddr: 0x7491, symSize: 0xA }
+  - { offsetInCU: 0x440A, offset: 0x5DF4B, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection setServiceUrlScheme:]', symObjAddr: 0x405B, symBinAddr: 0x749B, symSize: 0x11 }
+  - { offsetInCU: 0x4449, offset: 0x5DF8A, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection accessToken]', symObjAddr: 0x406C, symBinAddr: 0x74AC, symSize: 0xA }
+  - { offsetInCU: 0x447E, offset: 0x5DFBF, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection accessTokenExpireDate]', symObjAddr: 0x4076, symBinAddr: 0x74B6, symSize: 0xA }
+  - { offsetInCU: 0x44B3, offset: 0x5DFF4, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection refreshToken]', symObjAddr: 0x4080, symBinAddr: 0x74C0, symSize: 0xA }
+  - { offsetInCU: 0x44E8, offset: 0x5E029, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection tokenType]', symObjAddr: 0x408A, symBinAddr: 0x74CA, symSize: 0xA }
+  - { offsetInCU: 0x451D, offset: 0x5E05E, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection session]', symObjAddr: 0x4094, symBinAddr: 0x74D4, symSize: 0xA }
+  - { offsetInCU: 0x4552, offset: 0x5E093, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection setSession:]', symObjAddr: 0x409E, symBinAddr: 0x74DE, symSize: 0x11 }
+  - { offsetInCU: 0x4591, offset: 0x5E0D2, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection authSession]', symObjAddr: 0x40AF, symBinAddr: 0x74EF, symSize: 0xA }
+  - { offsetInCU: 0x45C6, offset: 0x5E107, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection setAuthSession:]', symObjAddr: 0x40B9, symBinAddr: 0x74F9, symSize: 0x11 }
+  - { offsetInCU: 0x4605, offset: 0x5E146, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection isBusy]', symObjAddr: 0x40CA, symBinAddr: 0x750A, symSize: 0x9 }
+  - { offsetInCU: 0x463A, offset: 0x5E17B, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection setIsBusy:]', symObjAddr: 0x40D3, symBinAddr: 0x7513, symSize: 0x9 }
+  - { offsetInCU: 0x4677, offset: 0x5E1B8, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection setIsOnlyPortraitSupportedInIphone:]', symObjAddr: 0x40DC, symBinAddr: 0x751C, symSize: 0x9 }
+  - { offsetInCU: 0x46B4, offset: 0x5E1F5, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection oneTimeStateCode]', symObjAddr: 0x40E5, symBinAddr: 0x7525, symSize: 0xA }
+  - { offsetInCU: 0x46E9, offset: 0x5E22A, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection authCode]', symObjAddr: 0x40EF, symBinAddr: 0x752F, symSize: 0xA }
+  - { offsetInCU: 0x471E, offset: 0x5E25F, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection setAuthCode:]', symObjAddr: 0x40F9, symBinAddr: 0x7539, symSize: 0x11 }
+  - { offsetInCU: 0x475D, offset: 0x5E29E, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection version]', symObjAddr: 0x410A, symBinAddr: 0x754A, symSize: 0xA }
+  - { offsetInCU: 0x4792, offset: 0x5E2D3, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection setVersion:]', symObjAddr: 0x4114, symBinAddr: 0x7554, symSize: 0x11 }
+  - { offsetInCU: 0x47D1, offset: 0x5E312, size: 0x8, addend: 0x0, symName: '-[NaverThirdPartyLoginConnection .cxx_destruct]', symObjAddr: 0x4125, symBinAddr: 0x7565, symSize: 0xAB }
+  - { offsetInCU: 0x27, offset: 0x5E89B, size: 0x8, addend: 0x0, symName: '+[TLSignatureUtil digestMessage:withKey:]', symObjAddr: 0x0, symBinAddr: 0x7610, symSize: 0xAC }
+  - { offsetInCU: 0x44, offset: 0x5E8B8, size: 0x8, addend: 0x0, symName: '+[TLSignatureUtil digestMessage:withKey:]', symObjAddr: 0x0, symBinAddr: 0x7610, symSize: 0xAC }
+  - { offsetInCU: 0x128, offset: 0x5E99C, size: 0x8, addend: 0x0, symName: '+[TLSignatureUtil digestMessage:withKeyData:]', symObjAddr: 0xAC, symBinAddr: 0x76BC, symSize: 0x8E }
+  - { offsetInCU: 0x1E0, offset: 0x5EA54, size: 0x8, addend: 0x0, symName: '+[TLSignatureUtil digestMessageData:withKeyData:]', symObjAddr: 0x13A, symBinAddr: 0x774A, symSize: 0x1C1 }
+  - { offsetInCU: 0x454, offset: 0x5ECC8, size: 0x8, addend: 0x0, symName: '+[TLSignatureUtil macContextWithKey:]', symObjAddr: 0x2FB, symBinAddr: 0x790B, symSize: 0x7C }
+  - { offsetInCU: 0x516, offset: 0x5ED8A, size: 0x8, addend: 0x0, symName: '+[TLSignatureUtil digestMessage:withMacContext:]', symObjAddr: 0x377, symBinAddr: 0x7987, symSize: 0x6F }
+  - { offsetInCU: 0x5A5, offset: 0x5EE19, size: 0x8, addend: 0x0, symName: '+[TLSignatureUtil digestMessageData:withMacContext:]', symObjAddr: 0x3E6, symBinAddr: 0x79F6, symSize: 0x15B }
+...
